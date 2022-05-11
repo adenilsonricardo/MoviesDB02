@@ -1,4 +1,4 @@
-package com.example.moviesdb01.domain.model
+package com.example.moviesdb01.popular.domain.model
 
 data class Movies (
 

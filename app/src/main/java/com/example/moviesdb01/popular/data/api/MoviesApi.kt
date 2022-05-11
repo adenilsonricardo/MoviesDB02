@@ -1,6 +1,6 @@
-package com.example.moviesdb01.data.api
+package com.example.moviesdb01.popular.data.api
 
-import com.example.moviesdb01.data.models.MoviesResponse
+import com.example.moviesdb01.popular.data.models.MoviesResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

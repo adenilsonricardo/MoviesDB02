@@ -1,11 +1,11 @@
-package com.example.moviesdb01.data.datasource
+package com.example.moviesdb01.popular.data.datasource
 
-import com.example.moviesdb01.data.api.MoviesApi
-import com.example.moviesdb01.data.models.MoviesResponse
+import com.example.moviesdb01.popular.data.api.MoviesApi
+import com.example.moviesdb01.popular.data.models.MoviesResponse
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
-const val API_KEY = "cf20abfa4daa8cc80b1708476db3178d"
+const val API_KEY = "INSIRA_SUA_CHAVE_AQUI"
 
 class MoviesDataSourceImpl(private val service: MoviesApi): MoviesDataSource  {
 
@@ -14,5 +14,4 @@ class MoviesDataSourceImpl(private val service: MoviesApi): MoviesDataSource  {
             emit(service.getMovies(apiKey = API_KEY))
         }
     }
-
 }

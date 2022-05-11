@@ -1,11 +1,11 @@
-package com.example.moviesdb01.data.mapper
+package com.example.moviesdb01.popular.data.mapper
 
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.example.moviesdb01.data.models.MoviesResponse
-import com.example.moviesdb01.data.models.ResultsResponse
-import com.example.moviesdb01.domain.model.Movies
-import com.example.moviesdb01.domain.model.MoviesResult
+import com.example.moviesdb01.popular.data.models.MoviesResponse
+import com.example.moviesdb01.popular.data.models.ResultsResponse
+import com.example.moviesdb01.popular.domain.model.Movies
+import com.example.moviesdb01.popular.domain.model.MoviesResult
 import com.example.moviesdb01.utils.Mapper
 
 @RequiresApi(Build.VERSION_CODES.N)

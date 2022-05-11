@@ -1,10 +1,10 @@
-package com.example.moviesdb01.presentation.view
+package com.example.moviesdb01.popular.presentation.view
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.moviesdb01.databinding.ListItemBinding
-import com.example.moviesdb01.domain.model.MoviesResult
+import com.example.moviesdb01.popular.domain.model.MoviesResult
 import com.example.moviesdb01.utils.POSTER_BASE_URL
 import com.squareup.picasso.Picasso
 
